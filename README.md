@@ -1,2 +1,1 @@
-# ProtocolCauseCrashDemo
-A demo shows that it will be crash after adding "where" to a protocol.
+Refer to [this question](https://stackoverflow.com/questions/54881109/protocol-with-where-causes-crash).
