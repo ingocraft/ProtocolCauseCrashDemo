@@ -13,7 +13,7 @@
 		B61B917922252020002EC207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61B917722252020002EC207 /* LaunchScreen.storyboard */; };
 		B61B918322252046002EC207 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B918022252046002EC207 /* Displayable.swift */; };
 		B61B918422252046002EC207 /* DisplayableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B918122252046002EC207 /* DisplayableViewController.swift */; };
-		B61B918522252046002EC207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B918222252046002EC207 /* ViewController.swift */; };
+		B61B9189222531A6002EC207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B9188222531A6002EC207 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		B61B917A22252020002EC207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B61B918022252046002EC207 /* Displayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
 		B61B918122252046002EC207 /* DisplayableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayableViewController.swift; sourceTree = "<group>"; };
-		B61B918222252046002EC207 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../SwiftLimitedProtocol/SwiftLimitedProtocol/ViewController.swift; sourceTree = "<group>"; };
+		B61B9188222531A6002EC207 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		B61B916D2225201F002EC207 /* ProtocolCauseCrashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B61B9188222531A6002EC207 /* ViewController.swift */,
 				B61B916E2225201F002EC207 /* AppDelegate.swift */,
-				B61B918222252046002EC207 /* ViewController.swift */,
 				B61B918022252046002EC207 /* Displayable.swift */,
 				B61B918122252046002EC207 /* DisplayableViewController.swift */,
 				B61B91722225201F002EC207 /* Main.storyboard */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B61B918522252046002EC207 /* ViewController.swift in Sources */,
 				B61B918322252046002EC207 /* Displayable.swift in Sources */,
 				B61B916F2225201F002EC207 /* AppDelegate.swift in Sources */,
+				B61B9189222531A6002EC207 /* ViewController.swift in Sources */,
 				B61B918422252046002EC207 /* DisplayableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
